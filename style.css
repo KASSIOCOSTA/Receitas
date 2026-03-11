@@ -22,6 +22,7 @@ body{
     background-color: black;
     background-image: url("img/fundo.png");
     background-repeat: no-repeat;
+    background-position: top center;
     background-size: contain;
     background-attachment: fixed;
     
@@ -53,9 +54,16 @@ footer p{
     
 }
 footer p:hover{
+    color: white;
     background-color: rgb(230, 204, 4);
     width: 100px;
     padding: 10px;
+    text-shadow: 
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black
+    ;
     
 }
 main{
