@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 header{
+    font-variant: small-caps;
     text-align: center;
     color: rgb(228, 199, 34);
     text-shadow: 
