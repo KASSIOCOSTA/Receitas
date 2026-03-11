@@ -1,4 +1,36 @@
 let botoes = document.querySelectorAll("button")
+const doce = document.getElementById("btn-doce")
+const salgado = document.getElementById("btn-salgado")
+const receitasDoce =document.querySelector(".receitas-doces")
+const receitasSalgado =document.querySelector(".receitas-salgados")
+
+doce.addEventListener("click",function(){
+    if(receitasDoce.style.display === "none"){
+        receitasDoce.style.display = "block"
+        doce.innerText = "Fechar"
+
+    }else{
+        receitasDoce.style.display = "none"
+        doce.innerText = "Doces"
+
+
+    }
+})
+salgado.addEventListener("click",function(){
+    if(receitasSalgado.style.display === "none"){
+        receitasSalgado.style.display = "block"
+        salgado.innerText = "Fechar"
+
+
+    }else{
+        receitasSalgado.style.display = "none"
+        salgado.innerText = "Salgados"
+
+
+    }
+})
+
+
 
 botoes.forEach(function(botao){
 

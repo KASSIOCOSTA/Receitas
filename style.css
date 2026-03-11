@@ -5,22 +5,73 @@
 }
 header{
     text-align: center;
-    color: white;
+    color: rgb(228, 199, 34);
+    text-shadow: 
+    1px 1px black,
+    1px -1px black,
+    -1px 1px black,
+    -1px -1px black
+    ;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 body{
+  
+    max-height: 80vh;
     background-color: black;
+    background-image: url("img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.receitas-doces{
+    display: none;
+}
+.receitas-salgados{
+    display: none;
+}
+footer{
+
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+gap: 10px;
+
+    
+}
+footer p{
+    font-variant: small-caps;
+    text-align: center;
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    
+}
+footer p:hover{
+    background-color: rgb(230, 4, 4);
+    width: 100px;
+    padding: 10px;
+    
 }
 main{
+    max-height: 70vh;
     display: flex;
     flex-flow: column nowrap;
     gap: 5px;
-    width: 70vw;
+    width: 85vw;
     margin: 0 auto;
+    overflow-y: scroll;
+    
     
 }
+main::-webkit-scrollbar{
+    display: none;
+}
 main h2{
+    text-shadow: 1px 1px 1px black;
     color: white;
     font-variant: small-caps;
     font-size: 1.3em;
