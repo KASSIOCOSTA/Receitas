@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    width: 70vw;
+    margin: 0 auto;
+    
+}
+main h2{
+    color: white;
+    font-variant: small-caps;
+    font-size: 1.3em;
+    
+}
+.img-logo{
+    width: 100px;
+    height: 80px;
+}
+.interface{
+    border-radius: 15px 15px ;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+.interface  button{
+    align-self: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+.interface  img{
+    align-self: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+.ingredientes{
+    background-color: white;
+    display: none;
+   
+}
+.ingredientes ul{
+    padding: 30px;
+}
+.ingredientes ol{
+    padding: 30px;
+}
