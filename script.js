@@ -7,6 +7,7 @@ const receitasSalgado =document.querySelector(".receitas-salgados")
 doce.addEventListener("click",function(){
     if(receitasDoce.style.display === "none"){
         receitasDoce.style.display = "block"
+        receitasSalgado.style.display = "none"
         doce.innerText = "Fechar"
 
     }else{
@@ -19,6 +20,7 @@ doce.addEventListener("click",function(){
 salgado.addEventListener("click",function(){
     if(receitasSalgado.style.display === "none"){
         receitasSalgado.style.display = "block"
+        receitasDoce.style.display = "none"
         salgado.innerText = "Fechar"
 
 
